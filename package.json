@@ -8,7 +8,9 @@
     "test": "tests"
   },
   "scripts": {
-    "start": "node src/index.js"
+    "start": "node index.js",
+    "test": "jest --verbose --watch",
+    "test:watch": "jest --verbose --watch"
   },
   "repository": {
     "type": "git",
@@ -25,6 +27,7 @@
     "inquirer": "^8.2.0"
   },
   "devDependencies": {
+    "@types/jest": "^27.4.0",
     "jest": "^27.4.7"
   }
 }
