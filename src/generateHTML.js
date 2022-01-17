@@ -5,7 +5,8 @@ const generateCards = (team) => {
     let managerHTML = `<div class="card" style="width: 18rem;">
       <div class="card-header">
        ${manager.name} <br/>
-          <i class="fas fa-clipboard">Manager</i>
+          <i class="fas fa-clipboard"></i>
+          Manager
       </div>
       <ul class="list-group list-group-flush">
         <li class="list-group-item">ID: ${manager.id}</li>
@@ -21,7 +22,8 @@ const generateCards = (team) => {
     let engineerHTML = `<div class="card" style="width: 18rem;">
       <div class="card-header">
        ${engineer.name} <br/>
-         <i class="fas fa-tools">Engineer</i>
+         <i class="fas fa-tools"></i>
+         Engineer
       </div>
       <ul class="list-group list-group-flush">
         <li class="list-group-item">ID: ${engineer.id}</li>
@@ -37,7 +39,8 @@ const generateCards = (team) => {
     let internHTML = `<div class="card" style="width: 18rem;">
       <div class="card-header">
         ${intern.name}<br/>
-          <i class="fas fa-user-graduate">Intern</i>
+          <i class="fas fa-user-graduate"></i>
+          Intern
       </div>
       <ul class="list-group list-group-flush">
         <li class="list-group-item">ID: ${intern.id}</li>
@@ -81,20 +84,16 @@ module.exports = (team) => {
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="style.sheet" href="../dist/style.css" />
+    <link rel="stylesheet" href="../dist/style.css" />
+    <title>Team Profile generator</title>
   </head>
   <body>
   <header class='jumbotron text-center'>
-      <h1 class='.bg-danger'>Team Profile</h1>
+      <h1>Team Profile</h1>
     </header>
 
-    <main class="container">
-      <div class="card-deck">
+    <main> ${generateCards(team)} </main>
   
-  ${generateCards(team)}
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" 
-  integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-  crossorigin="anonymous"></script>
     <script src="./src/index.js"></script>
   </body>
 </html>
