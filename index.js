@@ -22,7 +22,7 @@ const managerProfile = async () => {
     {
       type: 'input',
       name: 'id',
-      message: 'Please enter your id number',
+      message: 'Please enter your employee id',
       validate: isRequired,
     },
     {
@@ -68,7 +68,7 @@ const engineerProfile = async () => {
     {
       type: 'input',
       name: 'id',
-      message: 'Please enter your id number',
+      message: 'Please enter your employee id',
       validate: isRequired,
     },
     {
@@ -89,7 +89,7 @@ const engineerProfile = async () => {
     answers.name,
     answers.id,
     answers.email,
-    answers.officeNumber
+    answers.gitHub
   );
   // .then((data) => {
   //   const manager = new Manager(
@@ -113,7 +113,7 @@ const internProfile = async () => {
     {
       type: 'input',
       name: 'id',
-      message: 'Please enter your id number',
+      message: 'Please enter your employee id',
       validate: isRequired,
     },
     {
