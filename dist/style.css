@@ -1,0 +1,33 @@
+.jumbotron {
+  padding: 2rem 1rem;
+  margin-bottom: 1rem;
+  background-color: red;
+  color: white;
+  border-radius: 0.3rem;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 15px;
+  padding: 10px;
+}
+
+.card {
+  padding: 10px;
+  margin: 20px;
+}
+
+.card-header {
+  background-color: blue;
+  color: white;
+}
+
+@media (min-width: 576px) and (max-width: 992px) {
+  .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
