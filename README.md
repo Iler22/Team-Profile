@@ -12,9 +12,15 @@ When prompted for team members and their information, then an HTML is generated 
 
 Please see below demonstration of how to generate the Team HTML using the command line:
 
+https://user-images.githubusercontent.com/89151536/149830154-5b0ec28e-a4ec-4f09-a102-10cb704eb435.mp4
+
+Please see below demonstration of generated team profile HTML
+
+https://user-images.githubusercontent.com/89151536/149830317-43af1087-3a44-4ac8-b524-99f19e5f9412.mp4
+
 ## Screenshot
 
-![Team Profile screenshot]
+![Team Profile](https://user-images.githubusercontent.com/89151536/149830726-ea516e34-0457-4f74-aa76-fe5cd11fb1fa.png)
 
 ## Table of Contents
 
@@ -51,9 +57,10 @@ This application is a demonstartion.
 ## Test
 
 To run tests, run the following:
-`npm run test`
+
+`npm run test` after installing jest Js
 
 ## Questions
 
 Questions about this repository? Please contact me at [ilerwatson22@gmail.com](mailto:ilerwatson22@gmail.com). View more of my work in GitHub at https://github.com/Iler22
-http://127.0.0.1:5500/dist/team.html
+
