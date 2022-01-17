@@ -42,9 +42,9 @@ To install this application, clone the code into your terminal for the respectiv
 A user will need to have nodeJS, npm inquirer and jestJs installed to be able to use this app.
 
 - Enter management information
-  -You will be redirected to a menu, where you can choose to add an engineer, add an intern, or end the application
-  -If you choose to add an engineer or an intern, you will be redirected to the menu until you choose to end the application
-  -Once you end the application, your software team will be generated in an HTML file
+- You will be redirected to a menu, where you can choose to add an engineer, add an intern, or end the application
+- If you choose to add an engineer or an intern, you will be redirected to the menu until you choose to end the application
+- Once you end the application, your software team will be generated in an HTML file
 
 ## License
 
