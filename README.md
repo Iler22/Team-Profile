@@ -35,7 +35,7 @@ https://user-images.githubusercontent.com/89151536/149830317-43af1087-3a44-4ac8-
 
 To install dependencies, run the following:
 
-To install this application, clone the code into your terminal for the respective repository. Then, install npm by entering the command npm init into the terminal. Inquirer must then be installed by entering npm install inquirer. Finally, the program can then be run by entering npm start into the command line, and answering each question appropriately.
+To install this application, clone the code into your terminal for the respective repository. Then, install npm by entering the command `npm init -y` into the terminal. Inquirer must then be installed by entering `npm install inquirer`. Finally, the program can then be run by entering `npm start` into the command line, and answering each question appropriately.
 
 ## Usage
 
@@ -58,7 +58,7 @@ This application is a demonstartion.
 
 To run tests, run the following:
 
-`npm run test` after installing jest Js
+`npm run test` after installing jestJs
 
 ## Questions
 
