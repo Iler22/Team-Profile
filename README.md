@@ -14,10 +14,6 @@ Please see below demonstration of how to generate the Team HTML using the comman
 
 https://user-images.githubusercontent.com/89151536/149830154-5b0ec28e-a4ec-4f09-a102-10cb704eb435.mp4
 
-Please see below demonstration of generated team profile HTML
-
-https://user-images.githubusercontent.com/89151536/149830317-43af1087-3a44-4ac8-b524-99f19e5f9412.mp4
-
 ## Screenshot
 
 ![Team Profile](https://user-images.githubusercontent.com/89151536/149830726-ea516e34-0457-4f74-aa76-fe5cd11fb1fa.png)
